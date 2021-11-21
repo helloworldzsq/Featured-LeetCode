@@ -14,7 +14,7 @@ public class 解码方法 {
                 dp[i] += dp[i - 1];
             }
             //和第i-1个字符组合在一起使用，前提是第i-1为不是0，并且组合起来小于26
-            if (i>1 && (s.charAt(i-2)=='1' || (s.charAt(i-1)=='2' && s.charAt(i)<='6')))
+            if (i>1 && (s.charAt(i-2)=='1' || (s.charAt(i-2)=='2' && s.charAt(i-1)<='6')))
                 dp[i]+=dp[i-2];
         }
         return dp[n];
