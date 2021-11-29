@@ -3,7 +3,6 @@ package dfs;
 import java.util.ArrayList;
 import java.util.List;
 //给你一个整数数组 nums ，返回该数组所有可能的子集（幂集）。解集不能包含重复的子集。
-
 public class 子集 {
     List<List<Integer>> lists = new ArrayList<>();
     public List<List<Integer>> subsets(int[] nums) {
