@@ -5,7 +5,6 @@ package 双指针;
 // 找出其中的两条线，使得它们与 x 轴共同构成的容器可以容纳最多的水
 
 public class 盛最多水的容器 {
-
     //双指针法
     public int maxArea(int[] height) {
         if (height.length<2)
